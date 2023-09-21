@@ -1,6 +1,6 @@
 # Cusdis 0.8.1
 
-A privacy-friendly comments system.
+Cusdis comments for your website.
 
 <!-- <p align="center"><img src="cusdis-screenshot.png?raw=true" alt="Screenshot"></p> -->
 

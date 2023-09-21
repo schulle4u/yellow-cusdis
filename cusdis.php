@@ -1,5 +1,5 @@
 <?php
-// Cusdis extension
+// Cusdis extension, https://github.com/schulle4u/yellow-cusdis
 
 class YellowCusdis {
     const VERSION = "0.8.1";
@@ -12,13 +12,13 @@ class YellowCusdis {
         $this->yellow->system->setDefault("cusdisAppId", "");
         $this->yellow->language->setDefaults(array(
             "Language: en",
-            "CusdisDescription: A privacy-friendly comments system.",
+            "CusdisDescription: Cusdis comments for your website.",
             "CusdisComments: Comments",
             "Language: de",
-            "CusdisDescription: Ein datenschutzfreundliches Kommentarsystem.",
+            "CusdisDescription: Cusdis-Kommentare für deine Webseite.",
             "CusdisComments: Kommentare",
             "Language: sv",
-            "CusdisDescription: Ett integritetsvänligt kommentarsystem.",
+            "CusdisDescription: Cusdis-Kommentarer till din webbplats.",
             "CusdisComments: Kommentarer"));
     }
     
