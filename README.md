@@ -47,6 +47,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 `CusdisHost` = URL of your Cusdis instance  
 `CusdisAppId` = Your Cusdis app ID  
+`CusdisTheme` = Cusdis Theme (light, dark or auto)  
 
 ## Acknowledgements
 

@@ -10,6 +10,7 @@ class YellowCusdis {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("cusdisHost", "https://cusdis.com");
         $this->yellow->system->setDefault("cusdisAppId", "");
+        $this->yellow->system->setDefault("cusdisTheme", "auto");
         $this->yellow->language->setDefaults(array(
             "Language: en",
             "CusdisDescription: Cusdis comments for your website.",
@@ -28,8 +29,9 @@ class YellowCusdis {
         if ($name=="cusdis" && ($type=="block" || $type=="inline") && !preg_match("/exclude/i", $page->get("comment"))) {
             $host = $this->yellow->system->get("cusdisHost");
             $appId = $this->yellow->system->get("cusdisAppId");
+            $theme = $this->yellow->system->get("cusdisTheme");
             $output = "<h2>".$this->yellow->language->getTextHtml("cusdisComments").": <span data-cusdis-count-page-id=".htmlspecialchars($page->get("titleSlug")).">0</span></h2>\n";
-            $output .= "<div id=\"cusdis_thread\" data-host=\"".htmlspecialchars($host)."\" data-app-id=\"".htmlspecialchars($appId)."\" data-page-id=\"".$page->getHtml("titleSlug")."\" data-page-url=\"".htmlspecialchars($page->getUrl())."\" data-page-title=\"".$page->getHtml("titleContent")."\" role=\"region\" aria-label=\"".$this->yellow->language->getTextHtml("cusdisComments")."\"></div>\n";
+            $output .= "<div id=\"cusdis_thread\" data-host=\"".htmlspecialchars($host)."\" data-app-id=\"".htmlspecialchars($appId)."\" data-page-id=\"".$page->getHtml("titleSlug")."\" data-page-url=\"".htmlspecialchars($page->getUrl())."\" data-page-title=\"".$page->getHtml("titleContent")."\" data-theme=\"".htmlspecialchars($theme)."\" role=\"region\" aria-label=\"".$this->yellow->language->getTextHtml("cusdisComments")."\"></div>\n";
         }
         return $output;
     }
