@@ -4,7 +4,7 @@
 
 Cusdis-Kommentare für deine Webseite.
 
-<p align="center"><img src="cusdis-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="cusdis-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
 ## Wie man eine Erweiterung installiert
 
