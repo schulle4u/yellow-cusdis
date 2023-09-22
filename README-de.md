@@ -2,21 +2,21 @@
 
 # Cusdis 0.8.1
 
-Cusdis comments for your website.
+Cusdis-Kommentare für deine Webseite.
 
 <p align="center"><img src="cusdis-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to install an extension
+## Wie man eine Erweiterung installiert
 
-[Download ZIP file](https://github.com/schulle4u/yellow-cusdis/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+[ZIP-Datei herunterladen](https://github.com/schulle4u/yellow-cusdis/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
-## How to show comments
+## Wie man Kommentare anzeigt
 
-Create a site in your Cusdis dashboard, and enter the hostname and app ID from the generated embed code in `system/extensions/yellow-system.ini`. Cusdis comments are automatically available for blog and wiki pages. To embed Cusdis into any other page, create a `[cusdis]` shortcut. To exclude comments from a page, set `Comment: exclude` in your [page settings](https://github.com/annaesvensson/yellow-core#user-content-settings-page). 
+Erstelle eine neue Seite in deinem Cusdis-Dashboard und trage den Hostnamen sowie App-ID aus dem Einbettungs-Code in der Datei `system/extensions/yellow-system.ini` ein. Cusdis-Kommentare sind auf Blog- und Wikiseiten automatisch verfügbar. Erstelle eine `[cusdis]`-Abkürzung, um Kommentare auf anderen Seiten anzuzeigen. Um Kommentare auf bestimmten Seiten auszuschalten, setze `Comment: exclude` in deinen [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#user-content-einstellungen-seite). 
 
-## Examples
+## Beispiele
 
-Content file with Cusdis comments: 
+Inhaltsdatei mit Cusdis-Kommentaren: 
 
 ```
 ---
@@ -29,7 +29,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 [cusdis]
 ```
 
-Blog page without comments: 
+Blogseite ohne Kommentare: 
 
 ```
 ---
@@ -43,18 +43,18 @@ Comment: exclude
 Datenstrom Yellow is for people who make small websites. Installing is unzipping one file and you are ready to go. The most important things for small websites are included. You can add features, languages and themes. Datenstrom Yellow works as content management system and static site generator.
 ```
 
-## Settings
+## Einstellungen
 
-The following settings can be configured in file `system/extensions/yellow-system.ini`:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`CusdisHost` = URL of your Cusdis instance  
-`CusdisAppId` = Your Cusdis app ID  
-`CusdisTheme` = Cusdis Theme (light, dark or auto)  
+`CusdisHost` = URL deiner Cusdis-Instanz  
+`CusdisAppId` = Deine Cusdis-app-ID  
+`CusdisTheme` = Cusdis-Theme (light, dark oder auto)  
 
-## Acknowledgements
+## Danksagung
 
-This extension uses the open-source and self-hostable [Cusdis comments system](https://cusdis.com/). Thank you for the software! 
+Diese Erweiterung verwendet das quelloffene und auf eigenen Servern nutzbare [Cusdis-Kommentarsystem](https://cusdis.com/). Vielen Dank für diese Software! 
 
-## Developer
+## Entwickler
 
-Steffen Schultz. [Get help](https://datenstrom.se/yellow/help/).
+Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
