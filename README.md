@@ -2,7 +2,7 @@
 
 Cusdis comments for your website.
 
-<!-- <p align="center"><img src="cusdis-screenshot.png?raw=true" alt="Screenshot"></p> -->
+<p align="center"><img src="cusdis-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to install an extension
 
