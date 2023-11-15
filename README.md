@@ -8,7 +8,7 @@ Cusdis comments for your website.
 
 ## How to install an extension
 
-[Download ZIP file](https://github.com/schulle4u/yellow-cusdis/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+[Download ZIP file](https://github.com/schulle4u/yellow-cusdis/archive/refs/heads/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## How to show comments
 
