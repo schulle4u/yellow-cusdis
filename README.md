@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
 
-# Cusdis 0.8.1
+# Cusdis 0.8.2
 
 Cusdis comments for your website.
 

@@ -2,7 +2,7 @@
 // Cusdis extension, https://github.com/schulle4u/yellow-cusdis
 
 class YellowCusdis {
-    const VERSION = "0.8.1";
+    const VERSION = "0.8.2";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -23,8 +23,8 @@ class YellowCusdis {
             "CusdisComments: Kommentarer"));
     }
     
-    // Handle page content of shortcut
-    public function onParseContentShortcut($page, $name, $text, $type) {
+    // Handle page content element
+    public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
         if ($name=="cusdis" && ($type=="block" || $type=="inline") && !preg_match("/exclude/i", $page->get("comment"))) {
             $host = $this->yellow->system->get("cusdisHost");
@@ -53,7 +53,7 @@ class YellowCusdis {
             $output .= "<script type=\"text/javascript\" defer=\"defer\" data-host=\"".htmlspecialchars($host)."\" data-app-id=\"".htmlspecialchars($appId)."\" src=\"".htmlspecialchars($host)."/js/cusdis-count.umd.js\"></script>\n";
         }
         if ($name=="comment") {
-            $output = $this->onParseContentShortcut($page, "cusdis", "", "block");
+            $output = $this->onParseContentElement($page, "cusdis", "", "block");
         }
         return $output;
     }
