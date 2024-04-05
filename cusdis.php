@@ -2,7 +2,7 @@
 // Cusdis extension, https://github.com/schulle4u/yellow-cusdis
 
 class YellowCusdis {
-    const VERSION = "0.8.2";
+    const VERSION = "0.9.1";
     public $yellow;         // access to API
     
     // Handle initialisation
