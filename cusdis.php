@@ -30,12 +30,7 @@ class YellowCusdis {
             $host = $this->yellow->system->get("cusdisHost");
             $appId = $this->yellow->system->get("cusdisAppId");
             $theme = $this->yellow->system->get("cusdisTheme");
-            $url = $this->yellow->lookup->normaliseUrl(
-                $this->yellow->system->get("coreServerScheme"),
-                $this->yellow->system->get("coreServerAddress"),
-                $this->yellow->system->get("coreServerBase"),
-                $page->location
-            );
+            $url = $this->yellow->page->getUrl(true);
             $output = "<h2>".$this->yellow->language->getTextHtml("cusdisComments").": <span data-cusdis-count-page-id=".htmlspecialchars($page->get("titleSlug")).">0</span></h2>\n";
             $output .= "<div id=\"cusdis_thread\" data-host=\"".htmlspecialchars($host)."\" data-app-id=\"".htmlspecialchars($appId)."\" data-page-id=\"".$page->getHtml("titleSlug")."\" data-page-url=\"".htmlspecialchars($url)."\" data-page-title=\"".$page->getHtml("titleContent")."\" data-theme=\"".htmlspecialchars($theme)."\" role=\"region\" aria-label=\"".$this->yellow->language->getTextHtml("cusdisComments")."\"></div>\n";
         }
