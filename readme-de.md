@@ -1,18 +1,18 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
+<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a></p>
 
 # Cusdis 0.9.1
 
 Cusdis-Kommentare für deine Webseite.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Bildschirmfoto"></p>
+<p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
 ## Wie man eine Erweiterung installiert
 
-[ZIP-Datei herunterladen](https://github.com/schulle4u/yellow-cusdis/archive/refs/heads/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+[ZIP-Datei herunterladen](https://github.com/schulle4u/yellow-cusdis/archive/refs/heads/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
 
 ## Wie man Kommentare anzeigt
 
-Erstelle eine neue Seite in deinem Cusdis-Dashboard und trage den Hostnamen sowie App-ID aus dem Einbettungs-Code in der Datei `system/extensions/yellow-system.ini` ein. Cusdis-Kommentare sind auf Blog- und Wikiseiten automatisch verfügbar. Erstelle eine `[cusdis]`-Abkürzung, um Kommentare auf anderen Seiten anzuzeigen. Um Kommentare auf bestimmten Seiten auszuschalten, setze `Comment: exclude` in deinen [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#user-content-einstellungen-seite). 
+Erstelle eine neue Seite in deinem Cusdis-Dashboard und trage den Hostnamen sowie App-ID aus dem Einbettungs-Code in der Datei `system/extensions/yellow-system.ini` ein. Cusdis-Kommentare sind auf Blog- und Wikiseiten automatisch verfügbar. Erstelle eine `[cusdis]`-Abkürzung, um Kommentare auf anderen Seiten anzuzeigen. Um Kommentare auf bestimmten Seiten auszuschalten, setze `Comment: exclude` in deinen [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/readme-de.md#user-content-einstellungen-seite). 
 
 ## Beispiele
 
