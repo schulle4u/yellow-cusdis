@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a></p>
-
 # Cusdis 0.9.1
 
-Cusdis comments for your website.
+Cusdis comments for your website. Developed by Steffen Schultz.
 
 <p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
@@ -55,6 +53,4 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 This extension uses the open-source and self-hostable [Cusdis comments system](https://cusdis.com/). Thank you for the software! 
 
-## Developer
-
-Steffen Schultz. [Get help](https://datenstrom.se/yellow/help/).
+Dou you have questions? [Get help](https://datenstrom.se/yellow/help/).
